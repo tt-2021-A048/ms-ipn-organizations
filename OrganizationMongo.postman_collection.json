@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "e437ddc7-16c2-4f64-b1ff-2267c3c72a3d",
+		"name": "OrganizationMongo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9096/api/organizations",
+					"host": [
+						"localhost"
+					],
+					"port": "9096",
+					"path": [
+						"api",
+						"organizations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9096/api/organizations",
+					"host": [
+						"localhost"
+					],
+					"port": "9096",
+					"path": [
+						"api",
+						"organizations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"name\": \"ciecas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9096/api/organizations",
+					"host": [
+						"localhost"
+					],
+					"port": "9096",
+					"path": [
+						"api",
+						"organizations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:9096/api/organizations/3",
+					"host": [
+						"localhost"
+					],
+					"port": "9096",
+					"path": [
+						"api",
+						"organizations",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9096/api/organizations/2",
+					"host": [
+						"localhost"
+					],
+					"port": "9096",
+					"path": [
+						"api",
+						"organizations",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
